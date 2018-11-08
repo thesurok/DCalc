@@ -23,6 +23,7 @@ var DCalc = {
 
         selectBtn = create('div');
         selectBtn.classList.add('select-btn', 'icon-lg');
+        selectBtn.style='background-image: url(img/creature_icons/new/Imp.jpg)';
 
     var numberOfCreatures = create('input');
         numberOfCreatures.setAttribute('type', 'number');
@@ -37,11 +38,13 @@ var DCalc = {
     var demons = create('div');
         demons.classList.add('icon-lg')
         demons.setAttribute('id', 'demons');
+        demons.style='background-image: url(img/creature_icons/new/Demon.jpg)';
         demons.innerHTML = '0(0)';
 
     var pitLords = create('div');
         pitLords.classList.add('icon-lg')
         pitLords.setAttribute('id', 'pit_lords');
+        pitLords.style='background-image: url(img/creature_icons/new/Pit_Lord.jpg)';
 
         calcLeftSide.appendChild(selectBtn);
                                  selectBtn.appendChild(numberOfCreatures);
