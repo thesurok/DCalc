@@ -1,0 +1,25 @@
+{
+  "name": "dcalc",
+  "version": "1.0.0",
+  "description": "demonology calculator for HoMM3",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "soorock",
+  "license": "ISC",
+  "homepage": "https://thesurok.github.io/DCalc",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.1",
+    "pump": "^3.0.0",
+    "sass": "^1.14.2"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
